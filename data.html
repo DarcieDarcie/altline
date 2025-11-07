@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>altline | bands</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
+</head>
+<body class="skull-page">
+
+  <div class="edge edge-top" aria-hidden="true"></div>
+  <div class="edge edge-bottom" aria-hidden="true"></div>
+  <div class="edge edge-left" aria-hidden="true"></div>
+  <div class="edge edge-right" aria-hidden="true"></div>
+
+  <header>
+    <h1 class="site-title">altline</h1>
+    <nav class="main-nav">
+      <a href="index.html">home</a>
+      <a href="data.html">bands</a>
+      <a href="about.html">about</a>
+      <a href="highlandcow.html">highland cows!!!!</a>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <div class="content-box">
+      <h2>alt bands list</h2>
+
+      <div id="bandDisplay" class="band-cards" aria-live="polite"></div>
+
+      <section class="controls">
+        <div class="input-row">
+          <input id="bandName" placeholder="band name" />
+          <input id="genre" placeholder="genre" />
+          <input id="year" placeholder="year formed" />
+          <input id="description" placeholder="description" />
+          <button id="btnAdd">add band</button>
+        </div>
+
+        <div class="input-row">
+          <input id="searchInput" placeholder="search by name or genre" />
+          <button id="btnSearch">search</button>
+          <button id="btnDelete">delete by name</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>raise your stare to see the website</footer>
+</body>
+</html>
